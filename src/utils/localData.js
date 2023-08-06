@@ -2,42 +2,42 @@ export const kelas = [
   {
     id: 1,
     slug: "MERN",
-    img: "mern.PNG",
+    img: "mern.png",
     name: "Programmer MERN",
     desc: "Profesi yang bertugas membuat dan mengelola suatu aplikasi (React & Express)",
   },
   {
     id: 2,
     slug: "UIUX",
-    img: "uiux.PNG",
+    img: "uiux.png",
     name: "UI/UX Designer",
     desc: "UI/UX Designer profesi yang bertugas meriset dan membuat tampilan suatu aplikasi",
   },
   {
     id: 3,
     slug: "QA",
-    img: "qa.PNG",
+    img: "qa.png",
     name: "Quality Assurance",
     desc: "Profesi yang bertugas melakukan pengecekan qualitas suatu aplikasi seperti error, alur, sistem dll",
   },
   {
     id: 4,
     slug: "DM",
-    img: "dm.PNG",
+    img: "dm.png",
     name: "Digital Marketing",
     desc: "Profersi yang bertugas melakukan marketing dengan pendekatan serba digital",
   },
   {
     id: 5,
     slug: "laravel",
-    img: "laravel.PNG",
+    img: "laravel.png",
     name: "Laravel Vue JS",
     desc: "Profesi yang bertugas membuat dan mengelola suatu aplikasi (Vue.Js & Laravel)",
   },
   {
     id: 6,
     slug: "HR",
-    img: "hr.PNG",
+    img: "hr.png",
     name: "HR: Talent Acquisition",
     desc: "Talent acquisition adalah proses memilih dan mempertahankan talenta potensial perusahaan",
   },
@@ -99,49 +99,49 @@ export const alur = [
 
 export const testimonials = [
   {
-    avatar: "/assets/testi1.JPG",
+    avatar: "/assets/testi1.jpg",
     name: "Yoshar Julizar",
     testi:
       "Alhamdulillah berkat ilmu komputer yang saya peroleh saat kuliah di Universitas Mahakarya Asia kini saya dapat terapkan ditempat saya bekerja.",
     company: "PNS KEMENKUMHAM",
   },
   {
-    avatar: "/assets/testi2.JPG",
+    avatar: "/assets/testi2.jpg",
     name: "Muhammad Ridwan Aam",
     testi:
       "Saya adalah siswa angkatan 1 di kelas UI UX, mungkin pada saat itu materi masih belum selengkap sekarang, tapi program ini harus dicoba untuk teman teman lain. Dan sekarang juga sudah ada banyak kelas yang tersedia, pasti sudah lebih bagus lagi. Saya juga sangat dibantu oleh tim penyaluran eduwork sampai tersalurkan bekerja.",
     company: "PT. Prawathiya Karsa Pradiptha",
   },
   {
-    avatar: "/assets/testi3.JPG",
+    avatar: "/assets/testi3.jpg",
     name: "Riki Ardian J.K",
     testi:
       "Universitas Mahakarya Asia, kampus yang mengajarkan take action terhadap ide-ide usaha, bukan teori saja. Alumninya pun banyak yang merealisasikan usahanya.",
     company: "Founder Indo Model Management",
   },
   {
-    avatar: "/assets/testi4.PNG",
+    avatar: "/assets/testi4.png",
     name: "Muhammad Aniq D",
     testi:
       "Saya termasuk siswa di angkatan pertama, dimana video pembelajaran dan mentor belum selengkap sekarang. Tapi ini sangat worth it, saya diajarkan banyak hal oleh mentor, dan saya senang dari segi mentor mengajarkan saya tentang problem solving sehingga saya mengerti seberapa pentingnya skill itu di dunia kerja.",
     company: "Tokopedia",
   },
   {
-    avatar: "/assets/testi5.JPG",
+    avatar: "/assets/testi5.jpg",
     name: "Yolanda Agatha",
     testi:
       "Universitas Mahakarya Asia, kampus yang mengajarkan take action terhadap ide-ide usaha, bukan teori saja. Alumninya pun banyak yang merealisasikan usahanya.",
     company: "Founder Salad Nyoo",
   },
   {
-    avatar: "/assets/testi6.PNG",
+    avatar: "/assets/testi6.png",
     name: "Fadjrian Gibran Falahqie",
     testi:
       "Saya mengikuti kelas UI UX, materinya ringkas dan mudah di pahami, selain itu penyaluran kerja oleh tim sangat membantu saya untuk mendapatkan pekerjaan lebih cepat sehingga sampai sekarang saya sudah bekerja sebagai UI UX Desginer. Terimakasih Eduwork!!",
     company: "PT Ordivo Teknologi Indonesia",
   },
   {
-    avatar: "/assets/testi7.JPG",
+    avatar: "/assets/testi7.jpg",
     name: "Al Harris Wibowo",
     testi:
       "Terimakasih ekosistem pengusaha pada UNMAHA, Tiap kumpul biasanya orang membahas hal yang tidak penting, tapi kami membahas soal omzet, gimana cara jualan.",

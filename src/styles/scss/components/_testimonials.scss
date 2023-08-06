@@ -1,13 +1,13 @@
 @use "../abstracts/" as *;
 
 // for swiper to work
-.container.testimonials__container {
+.testimonials__container {
   // border: 1px solid #000;
 
   overflow: hidden;
   // width: 100%;
-  padding: 48px 0;
-  padding-bottom: 64px;
+  padding: 48px 0 !important;
+  padding-bottom: 64px !important;
   .swiper-pagination-clickable .swiper-pagination-bullet {
     background-color: $color-primary-red-06;
   }

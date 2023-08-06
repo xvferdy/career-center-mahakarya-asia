@@ -24,7 +24,7 @@ export default function Testimonials() {
   return (
     <>
       <Swiper
-        className="container testimonials__container"
+        className="testimonials__container"
         modules={[Pagination, Autoplay, Navigation]}
         spaceBetween={32}
         slidesPerView={1}
@@ -60,6 +60,7 @@ export default function Testimonials() {
                   width={48}
                   alt="avatar"
                 />
+
                 <div className="cardTestimoni__author-copy">
                   <p className="cardTestimoni__author-copy-name body-16-bold">
                     {testimoni.name}

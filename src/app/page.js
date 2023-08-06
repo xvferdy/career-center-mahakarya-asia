@@ -177,7 +177,7 @@ export default function Home() {
 
       {/* SECTION KELAS */}
       <section className="kelas">
-        <div className="container kelas__container">
+        <div className="kelas__container">
           <article>
             <div className="header">
               <span className="label-14-bold">AVAILABLE CLASS</span>
@@ -194,7 +194,7 @@ export default function Home() {
 
       {/* SECTION JOB CONNECTOR */}
       <section className="alur">
-        <div className="container alur__container">
+        <div className="alur__container">
           <figure>
             <Image
               src={`/assets/alur.jpg`}
@@ -223,7 +223,7 @@ export default function Home() {
 
       {/* SECTION TESTIMONI */}
       <section className="testimoni">
-        <div className="container testimoni__container">
+        <div className="testimoni__container">
           <article>
             <div className="header">
               <span className="label-14-bold">TESTIMONIALS</span>
@@ -238,7 +238,7 @@ export default function Home() {
 
       {/* SECTION FAQ */}
       <section className="faqs">
-        <div className="container faqs__container">
+        <div className="faqs__container">
           <article>
             <div className="header">
               <span className="label-14-bold">HELP CENTER</span>
@@ -260,7 +260,7 @@ export default function Home() {
 
       {/* SECTION CONTACT */}
       <section className="contact">
-        <div className="container contact__container">
+        <div className="contact__container">
           <article>
             <div className="header">
               <span className="label-14-bold">HELP CENTER</span>

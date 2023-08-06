@@ -18,6 +18,9 @@
     grid-column: 1 / span 6;
     img {
       // height: 405px;
+      box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+      border: 8px solid $color-neutral-01;
+      border-radius: 40px;
       transition: $transition;
       &:hover {
         transform: rotate(-2deg) scale(1.05);
@@ -26,11 +29,6 @@
     // border-radius: 8px;
     // overflow: hidden;
     // border: 8px solid $color-neutral-05;
-    img {
-      box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
-      border: 8px solid $color-neutral-01;
-      border-radius: 40px;
-    }
   }
   article {
     padding-left: 40px;
