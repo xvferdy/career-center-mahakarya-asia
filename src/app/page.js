@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import CardKelas from "@/component/CardKelas";
-import CardPricing from "@/component/CardPricing";
-import Tabs from "@/component/Tabs";
+import CardKelas from "@/components/CardKelas";
+import CardPricing from "@/components/CardPricing";
+import Tabs from "@/components/Tabs";
 import { kelas, alur, faqs } from "@/utils/localData";
-import Testimonials from "@/component/Testimonials";
-import Accordion from "@/component/Accordion";
+import Testimonials from "@/components/Testimonials";
+import Accordion from "@/components/Accordion";
 
 export default function Home() {
   // const kelas = [
