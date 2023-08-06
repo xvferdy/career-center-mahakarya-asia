@@ -1,0 +1,46 @@
+{
+  "Kelas": [
+    {
+      "id": 1,
+      "slug": "MERN",
+      "img": "mern.PNG",
+      "name": "Programmer MERN",
+      "desc": "Profesi yang bertugas membuat dan mengelola suatu aplikasi (React & Express)"
+    },
+    {
+      "id": 2,
+      "slug": "UIUX",
+      "img": "uiux.PNG",
+      "name": "UI/UX Designer",
+      "desc": "UI/UX Designer profesi yang bertugas meriset dan membuat tampilan suatu aplikasi"
+    },
+    {
+      "id": 3,
+      "slug": "QA",
+      "img": "qa.PNG",
+      "name": "Quality Assurance",
+      "desc": "Profesi yang bertugas melakukan pengecekan qualitas suatu aplikasi seperti error, alur, sistem dll"
+    },
+    {
+      "id": 4,
+      "slug": "DM",
+      "img": "dm.PNG",
+      "name": "Digital Marketing",
+      "desc": "Profersi yang bertugas melakukan marketing dengan pendekatan serba digital"
+    },
+    {
+      "id": 5,
+      "slug": "laravel",
+      "img": "laravel.PNG",
+      "name": "Laravel Vue JS",
+      "desc": "Profesi yang bertugas membuat dan mengelola suatu aplikasi (Vue.Js & Laravel)"
+    },
+    {
+      "id": 6,
+      "slug": "HR",
+      "img": "hr.PNG",
+      "name": "HR: Talent Acquisition",
+      "desc": "Talent acquisition adalah proses memilih dan mempertahankan talenta potensial perusahaan"
+    }
+  ]
+}

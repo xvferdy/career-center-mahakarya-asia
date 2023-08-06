@@ -1,0 +1,42 @@
+@use "../abstracts/" as *;
+
+.cardKelas {
+  width: 234px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+
+  &__img {
+    // max-height: 142px;
+  }
+  &__body {
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+    &-title {
+      color: $color-neutral-10;
+      line-height: 28px;
+      margin-bottom: 4px;
+    }
+    &-desc {
+      color: $color-neutral-07;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  .divider {
+    height: 1px;
+    background-color: $color-neutral-02;
+    width: 100%;
+    // margin-bottom: 12px;
+  }
+  &__cta {
+    padding: 12px;
+  }
+}

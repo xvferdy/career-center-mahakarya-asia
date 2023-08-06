@@ -1,0 +1,50 @@
+/* === COLORS === */
+$color-primary-red-01: #ffeeee;
+$color-primary-red-02: #fddfd0;
+$color-primary-red-03: #fbb9a2;
+$color-primary-red-04: #f38972;
+$color-primary-red-05: #e85c4e;
+$color-primary-red-06: #d91a1a;
+$color-primary-red-07: #a61b1b;
+$color-primary-red-08: #911111;
+$color-primary-red-09: #780a0a;
+$color-primary-red-10: #610404;
+
+$color-neutral-01: #faf9f7;
+$color-neutral-02: #e8e6e1;
+$color-neutral-03: #d3cec4;
+$color-neutral-04: #b8b2a7;
+$color-neutral-05: #a39e93;
+$color-neutral-06: #857f72;
+$color-neutral-07: #625d52;
+$color-neutral-08: #504a40;
+$color-neutral-09: #423d33;
+$color-neutral-10: #27241d;
+
+$color-background: #f8fbfe;
+
+/* === FONTS === */
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+$font-weights: (
+  "light-italic": 300,
+  "regular": 400,
+  "medium": 500,
+  "semi-bold": 600,
+  "bold": 700,
+  "extra-bold": 800,
+);
+// font family ada di app/global.css
+
+/* === CONTAINERS === */
+// $width-lg: 75%;
+// $width-md: 86%;
+// $width-sm: 90%;
+$width-lg: 1320px;
+$width-md: 720px;
+$width-sm: 100%;
+
+/* === TRANSITIONS === */
+$transition: 0.2s all ease-in-out;
+
+/* === SHADOW === */
+$shadow-btn: 0 10px 50px rgba(1, 13, 130, 0.12);

@@ -1,0 +1,29 @@
+/* ■━■━■━■ base ■━■━■━■ */
+@use "./base/reset";
+@use "./base/typography";
+
+/* ■━■━■━■ components ■━■━■━■ */
+@use "./components/cardKelas";
+@use "./components/cardPricing";
+@use "./components/button";
+@use "./components/tabs";
+@use "./components/testimonials";
+@use "./components/accordion";
+
+/* ■━■━■━■ pages ■━■━■━■ */
+@use "./pages/home";
+
+/* ■━■━■━■ sections ■━■━■━■ */
+@use "./sections/welcome";
+@use "./sections/alur";
+@use "./sections/pricing";
+@use "./sections/kelas";
+@use "./sections/testimoni";
+@use "./sections/faqs";
+@use "./sections/contact";
+
+/* ■━■━■━■ layout ■━■━■━■ */
+// @use "./layouts/layout";
+// @use "./layouts/navbar";
+// @use "./layouts/sidebar";
+// @use "./layouts/footer";

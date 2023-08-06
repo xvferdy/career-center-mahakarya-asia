@@ -1,0 +1,32 @@
+@use "../abstracts/" as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: inherit;
+  // font-family: $font-primary;
+  // border: 1px solid gray;
+  // overflow-x: hidden;
+}
+
+body {
+  box-sizing: border-box;
+  // background-attachment: fixed;
+  // background-color: #f8fbfe;
+}
+
+html {
+  // font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

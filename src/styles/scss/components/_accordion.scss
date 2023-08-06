@@ -1,0 +1,68 @@
+@use "../abstracts/" as *;
+
+// <>
+//       <div
+//         onClick={() => setShow(!show)}
+//         className="flex justify-between items-center cursor-pointer"
+//       >
+//         <h1 className="text-xl font-semibold text-green">{question}</h1>
+
+//         <BiChevronDown
+//           className={`text-3xl transition-all duration-500 ${
+//             show ? "rotate-180" : ""
+//           }`}
+//         ></BiChevronDown>
+//       </div>
+
+//       <AnimatePresence>
+//         {show && (
+//           <motion.div
+//             initial={{ height: 0 }}
+//             animate={{ height: "auto" }}
+//             exit={{ height: 0 }}
+//             transition={{ duration: 0.3 }}
+//             className="overflow-clip"
+//           >
+//             <p className="pt-3 text-sm md:text-base">{answer}</p>
+//           </motion.div>
+//         )}
+//       </AnimatePresence>
+//     </>
+
+.accordion {
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  // gap: 16px;
+  cursor: pointer;
+  padding: 24px;
+  padding-bottom: 0;
+
+  background-color: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.06),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+  svg {
+    width: 25px;
+    height: 25px;
+    color: $color-neutral-09;
+  }
+  &__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 16px;
+      font-weight: map-get($font-weights, semi-bold);
+      line-height: 24px;
+    }
+  }
+  &__answer {
+    // border: 1px solid #000;
+    margin-top: 16px;
+
+    p {
+      color: $color-neutral-07;
+      line-height: 28px;
+    }
+  }
+}

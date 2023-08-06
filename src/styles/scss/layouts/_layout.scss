@@ -1,0 +1,45 @@
+@use "../abstracts/" as *;
+
+main {
+  // min-height: calc(100vh - 50px); //  100vh - Footer height
+
+  // swipper rusak kalau ada grid disini
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+  }
+  @include display(phone) {
+  }
+}
+
+section {
+  // min-height: calc(100vh - 50px); //  100vh - Footer height
+  // min-height: 100vh; // min height diatas cocok untuk page yg tdk scroll dan mau langsung tampilkan footer, trus nanti min height yg ini di taruh di page yg scroll
+  // border: 11px solid rgb(231, 45, 45);
+  & > .title {
+    border: 1px solid black;
+    max-width: $width-lg;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  padding: calc(70px + 40px) 0; // Nav height + your choice px/rem value
+  padding-bottom: 40px;
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+    & > .title {
+      max-width: $width-md;
+    }
+  }
+  @include display(phone) {
+    & > .title {
+      max-width: $width-sm;
+    }
+  }
+}
+
+section .container {
+  @extend %container; //kalau mau lebih custom ini hapus baru di taru di masing2 page section
+  // border: 1px solid #000;
+}

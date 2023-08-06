@@ -1,0 +1,112 @@
+@use "../abstracts/" as *;
+
+/* WELCOME */
+.welcome {
+  @extend %section;
+  display: grid;
+  place-items: center;
+
+  &__container {
+    @extend %container;
+    padding: 64px 0;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+    // border: 1px solid #000;
+  }
+  figure {
+    grid-column: 1 / span 6;
+    img {
+      // height: 405px;
+      transition: $transition;
+      &:hover {
+        transform: rotate(-2deg) scale(1.05);
+      }
+    }
+    // border-radius: 8px;
+    // overflow: hidden;
+    // border: 8px solid $color-neutral-05;
+    img {
+      box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+      border: 8px solid $color-neutral-01;
+      border-radius: 40px;
+    }
+  }
+  article {
+    padding-left: 40px;
+    grid-column: 7 / span 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    .header {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      span {
+      }
+      h2 {
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      p {
+      }
+      &__stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // justify-content: space-between;
+        &-stat {
+          // max-width: 202px;
+          // border: 1px solid #000;
+          padding: 8px 16px;
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          border-left: 4px solid $color-primary-red-06;
+          h3 {
+          }
+          span {
+            color: $color-neutral-07;
+            letter-spacing: 0.24px;
+          }
+        }
+      }
+    }
+  }
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
+    figure {
+      img {
+        transition: none;
+        &:hover {
+          transform: rotate(0) scale(1);
+        }
+      }
+    }
+    article {
+      padding-top: 40px;
+      padding-left: 0;
+      .content {
+        &__stats {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 12px;
+        }
+      }
+    }
+  }
+  @include display(phone) {
+    &__container {
+      padding: 48px 12px;
+    }
+  }
+}

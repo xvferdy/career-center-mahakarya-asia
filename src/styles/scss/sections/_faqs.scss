@@ -1,0 +1,58 @@
+@use "../abstracts/" as *;
+
+/* FAQS */
+.faqs {
+  @extend %section;
+  // display: grid;
+  // place-items: center;
+
+  &__container {
+    @extend %container;
+    padding: 64px 0;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  article {
+    // border: 1px solid #000;
+    grid-column: 3 / span 8;
+    // width: 872px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+
+    .header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      span {
+      }
+      h2 {
+      }
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      p {
+      }
+    }
+  }
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+    &__container {
+    }
+    article {
+      grid-column: 1 / span 12;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      padding: 48px 12px;
+    }
+  }
+}

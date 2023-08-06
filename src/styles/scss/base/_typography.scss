@@ -1,0 +1,113 @@
+@use "../abstracts/" as *;
+
+// BODY
+p {
+  &.body-16-reg {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: map-get($font-weights, regular);
+    color: $color-neutral-06;
+  }
+  &.body-16-bold {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: map-get($font-weights, semi-bold);
+    color: $color-neutral-06;
+  }
+  &.body-14-reg {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: map-get($font-weights, regular);
+    color: $color-neutral-06;
+  }
+  &.body-14-bold {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: map-get($font-weights, bold);
+    color: $color-neutral-06;
+  }
+  &.body-12-reg {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: map-get($font-weights, regular);
+    color: $color-neutral-06;
+  }
+  &.body-12-bold {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: map-get($font-weights, semi-bold);
+    color: $color-neutral-06;
+  }
+}
+
+// HEADINGS
+// h1 {
+//   font-size: 47px;
+//   font-weight: map-get($font-weights, bold);
+//   @include display(phone) {
+//     font-size: 36px;
+//   }
+// }
+h2 {
+  &.heading-30-bold {
+    font-size: 30px;
+    line-height: 37.5px;
+    font-weight: map-get($font-weights, bold);
+    color: $color-neutral-10;
+  }
+}
+h3 {
+  &.heading-24-bold {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: map-get($font-weights, semi-bold);
+    color: $color-neutral-10;
+  }
+}
+
+span {
+  color: $color-neutral-10;
+  &.label-12-regular {
+    font-size: 12px;
+    font-weight: map-get($font-weights, regular);
+    line-height: 125%;
+  }
+  &.label-12-bold {
+    font-size: 12px;
+    font-weight: map-get($font-weights, bold);
+    line-height: 125%;
+  }
+  &.label-14-regular {
+    font-size: 14px;
+    font-weight: map-get($font-weights, regular);
+    line-height: 125%;
+  }
+  &.label-14-bold {
+    font-size: 14px;
+    font-weight: map-get($font-weights, extra-bold);
+    line-height: 125%;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+    color: $color-primary-red-06;
+  }
+  &.label-16-reg {
+    font-size: 16px;
+    font-weight: map-get($font-weights, regular);
+    line-height: 125%;
+  }
+  &.label-16-bold {
+    font-size: 16px;
+    font-weight: map-get($font-weights, extra-bold);
+    line-height: 20px;
+  }
+  &.label-20-reg {
+    font-size: 20px;
+    font-weight: map-get($font-weights, regular);
+    line-height: 125%;
+  }
+  &.label-20-bold {
+    font-size: 20px;
+    font-weight: map-get($font-weights, bold);
+    line-height: 125%;
+  }
+}

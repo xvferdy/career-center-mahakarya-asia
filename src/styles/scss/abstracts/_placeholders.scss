@@ -1,0 +1,39 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+%section {
+  // min-height: 100vh;
+
+  // min-height: auto;
+  // padding: 2.4rem 0;
+  // border: 10px solid #000;
+  // MEDIA-QUERIES
+  // border: 1px solid #e1e44c;
+  @include display(tab-port) {
+  }
+  @include display(phone) {
+  }
+}
+
+%container {
+  border: 1px solid #000;
+  max-width: $width-lg;
+  margin: 0 auto;
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+    max-width: $width-md;
+  }
+  @include display(phone) {
+    max-width: $width-sm;
+  }
+}
+
+%glassmorph {
+  background-color: rgba(
+    $color-background,
+    0.6
+  ); // for older firefox (optional)
+  backdrop-filter: blur(15px);
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,86 @@
+@use "../abstracts/" as *;
+
+.btn {
+  // box-shadow: $shadow-btn;
+  // font-size: 18px;
+  // font-weight: map-get($font-weights, semi-bold);
+  // width: max-content;
+  // display: inline-block;
+  // padding: 14px 32px;
+  // border-radius: 8px;
+  // background-color: $color-background;
+  // color: $color-primary-red-06;
+  // cursor: pointer;
+  // display: flex;
+  // gap: 8px;
+  // justify-content: center;
+  // align-items: center;
+  // transition: $transition;
+  &--chip {
+    // min-width: 98px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background-color: $color-neutral-01;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-weight: map-get($font-weights, medium);
+    color: $color-neutral-09;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: $transition;
+    &--active {
+      background-color: $color-primary-red-06;
+      color: $color-neutral-01;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &--primary {
+    display: inline-block;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22.5px;
+    padding: 8px 16px;
+    min-height: 55px;
+    min-width: 213px;
+    background-color: $color-primary-red-06;
+    font-weight: map-get($font-weights, semi-bold);
+    color: $color-neutral-01;
+    // color: $color-background;
+    transition: $transition;
+    &:hover {
+      background-color: $color-primary-red-02;
+      color: $color-primary-red-06;
+    }
+  }
+  &--link {
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: $color-primary-red-06;
+    font-weight: map-get($font-weights, semi-bold);
+    transition: $transition;
+    svg {
+      transition: $transition;
+    }
+    &:hover {
+      color: $color-primary-red-05;
+      background-color: transparent;
+      svg {
+        transform: translateX(4px);
+      }
+    }
+  }
+}

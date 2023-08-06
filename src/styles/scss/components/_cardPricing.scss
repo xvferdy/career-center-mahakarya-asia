@@ -1,0 +1,135 @@
+@use "../abstracts/" as *;
+
+// <div className="cardPricing">
+// <div className="cardPricing__copy">
+//   <div className="cardPricing__copy-program">program</div>
+//   <div className="cardPricing__copy-price">
+//     <div className="container">
+//       <div className="prices">
+//         <div className="discount">1212</div>
+//         <div className="og">999999</div>
+//       </div>
+//       <div className="desc">
+//         Total 6,6jt, Cicilan 1jt/ bulan x 6 bulan
+//       </div>
+//     </div>
+//   </div>
+//   <div className="cardPricing__copy-features">
+//     <span className="label-12-bold">KEY FEATURES</span>
+//     <ul>
+//       <li>
+//         <BsFillPatchCheckFill />
+//         Mentoring 1 on 1
+//       </li>
+//       <li>
+//         <BsFillPatchCheckFill />
+//         Live group mentoring
+//       </li>
+//     </ul>
+//   </div>
+// </div>
+// <div className="cardKelas__cta">
+//   <Link className="btn btn--primary" href={`/kelas/wa`}>
+//     Pilih paket ini <RxOpenInNewWindow />
+//   </Link>
+// </div>
+// </div>
+
+.cardPricing {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  min-height: 643px;
+  width: 312px;
+  overflow: hidden;
+  // border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  &__copy {
+    // border: 1px solid #000;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    &-program {
+      background-color: $color-primary-red-02;
+      padding: 8px 32px;
+      text-align: center;
+      span {
+        color: $color-primary-red-06;
+        letter-spacing: 0.28px;
+      }
+    }
+    &-price {
+      .cardPricing-container {
+        padding: 8px 32px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        gap: 16px;
+        .prices {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          .discount {
+            color: $color-neutral-10;
+            font-size: 30px;
+            line-height: 37.5px;
+            font-weight: map-get($font-weights, bold);
+          }
+          .og {
+            color: $color-neutral-03;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: map-get($font-weights, semi-bold);
+          }
+        }
+        .desc {
+          color: $color-neutral-09;
+          line-height: 21px;
+          font-weight: map-get($font-weights, semi-bold);
+          text-align: center;
+        }
+      }
+    }
+    .divider {
+      height: 4px;
+      background-color: $color-neutral-01;
+      width: 100%;
+    }
+    &-features {
+      padding: 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      span {
+        color: $color-neutral-06;
+        letter-spacing: 0.28px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        li {
+          color: $color-neutral-09;
+          font-size: 14px;
+          line-height: 17.5px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          svg {
+            color: $color-primary-red-06;
+            height: 12px;
+            width: 12px;
+          }
+        }
+      }
+    }
+  }
+  &__cta {
+    padding: 0 32px;
+    padding-bottom: 32px;
+  }
+}
