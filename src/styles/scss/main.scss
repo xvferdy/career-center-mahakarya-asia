@@ -9,6 +9,11 @@
 @use "./components/tabs";
 @use "./components/testimonials";
 @use "./components/accordion";
+@use "./components/cardKelebihan";
+
+// belum jadi ##############
+@use "./components/footer";
+@use "./components/navbar";
 
 /* ■━■━■━■ pages ■━■━■━■ */
 @use "./pages/home";
@@ -20,8 +25,12 @@
 @use "./sections/kelas";
 @use "./sections/testimoni";
 @use "./sections/faqs";
-@use "./sections/contact";
 @use "./sections/kelebihan";
+
+// belum jadi ##############
+@use "./sections/contact";
+@use "./sections/hero";
+@use "./sections/partners";
 
 /* ■━■━■━■ layout ■━■━■━■ */
 // @use "./layouts/layout";

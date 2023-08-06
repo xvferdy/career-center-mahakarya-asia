@@ -1,3 +1,5 @@
+import { AiFillAlert } from "react-icons/ai";
+
 export const kelas = [
   {
     id: 1,
@@ -179,5 +181,26 @@ export const faqs = [
     question: "Bagaimana Setelah Bekerja?",
     answer:
       "Setelah bekerja, siswa tetap bisa konsultasi dengan mentor dan akan di dampingi selama 1 tahun. ",
+  },
+];
+
+export const kelebihan = [
+  {
+    id: 1,
+    icon: <AiFillAlert />,
+    title: "Penyaluran Kerja",
+    desc: "Bayangin aja setelah kuliah kamu gak perlu repot-repot apply sana sini cari lowongan pekerjaan karena program penyaluran ini sudah diurusin semuanya oleh tim Career Center Mahakarya!",
+  },
+  {
+    id: 2,
+    icon: <AiFillAlert />,
+    title: "UpSkill & ReSkill",
+    desc: "1 kelas/mentor hanya terdiri dari 5-10 siswa agar mentor dapat berfokus pada kualitas pembelajaran siswa",
+  },
+  {
+    id: 3,
+    icon: <AiFillAlert />,
+    title: "Hiring Partner",
+    desc: "Fasilitas job connection ke 1.000+ perusahaan hiring partner dalam dan luar negeri dan sudah banyak siswa yang lolos!",
   },
 ];

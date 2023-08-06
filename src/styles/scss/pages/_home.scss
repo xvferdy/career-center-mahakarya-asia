@@ -2,5 +2,21 @@
 
 .homepage-main {
   // min-height: 100vh;
-  background-color: #fff;
+  background-color: $color-neutral-01;
+
+  .white {
+    background-color: #fff;
+    box-shadow: 0px -2px 24px 0px rgba(0, 0, 0, 0.02),
+      0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 96px;
+    padding: 48px 0;
+  }
+
+  @include display(tab-port) {
+  }
+  @include display(phone) {
+    .white {
+      border-radius: 32px;
+    }
+  }
 }

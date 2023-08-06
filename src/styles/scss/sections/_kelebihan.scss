@@ -2,7 +2,57 @@
 
 /* KELAS */
 .kelebihan {
-  min-height: 100vh;
-  border: 1px solid #000;
+  // min-height: 100vh;
   // background-color: $color-primary-red-03;
+
+  &__container {
+    // border: 1px solid #000;
+    @extend %container;
+    padding: 64px 24px;
+    article {
+      display: grid;
+      // justify-items: center;
+      gap: 32px;
+
+      .header {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        span {
+        }
+        h2 {
+        }
+      }
+      .content {
+        p {
+        }
+        .cards {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 24px;
+        }
+      }
+    }
+  }
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+    article {
+      .content {
+        .cards {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    }
+  }
+  @include display(phone) {
+    article {
+      .content {
+        .cards {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
 }
