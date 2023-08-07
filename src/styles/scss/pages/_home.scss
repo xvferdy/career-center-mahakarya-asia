@@ -17,6 +17,7 @@
   @include display(phone) {
     .white {
       border-radius: 32px;
+      padding: 24px 0;
     }
   }
 }
