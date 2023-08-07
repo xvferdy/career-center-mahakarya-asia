@@ -1,6 +1,6 @@
 "use client";
+
 import Image from "next/image";
-import { testimonials } from "@/utils/localData";
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -20,7 +20,7 @@ import {
   Autoplay,
 } from "swiper/modules";
 
-export default function Testimonials() {
+export default function Testimonials({ testimonials }) {
   return (
     <>
       <Swiper

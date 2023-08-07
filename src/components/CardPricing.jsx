@@ -3,29 +3,33 @@ import Link from "next/link";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
-function CardPricing() {
+function CardPricing({ name, id, desc, price, ogPrice, features }) {
   return (
     <div className="cardPricing">
       <div className="cardPricing__copy">
         <div className="cardPricing__copy-program">
-          <span className="label-16-bold">REGULER</span>
+          <span className="label-16-bold">{name}</span>
         </div>
         <div className="cardPricing__copy-price">
           <div className="cardPricing-container">
             <div className="prices">
-              <div className="discount">Rp. 1Jt,-</div>
-              <div className="og">Rp. 6,6Jt,-</div>
+              <div className="discount">{price}</div>
+              <div className="og">{ogPrice}</div>
             </div>
-            <p className="desc body-14-bold">
-              Total 6,6jt, Cicilan 1jt/ bulan x 6 bulan
-            </p>
+            <p className="desc body-14-bold">{desc}</p>
           </div>
         </div>
         <div className="divider"></div>
         <div className="cardPricing__copy-features">
           <span className="label-12-bold">KEY FEATURES</span>
           <ul>
-            <li>
+            {features.map((li, idx) => (
+              <li key={idx}>
+                <BsFillPatchCheckFill />
+                {li}
+              </li>
+            ))}
+            {/* <li>
               <BsFillPatchCheckFill />
               Mentoring 1 on 1
             </li>
@@ -60,7 +64,7 @@ function CardPricing() {
             <li>
               <BsFillPatchCheckFill />
               Penyaluran kerja
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

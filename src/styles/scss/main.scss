@@ -11,6 +11,7 @@
 @use "./components/accordion";
 @use "./components/cardKelebihan";
 @use "./components/footer";
+@use "./components/carouselPartners";
 
 // belum jadi ##############
 @use "./components/navbar";
@@ -26,11 +27,11 @@
 @use "./sections/testimoni";
 @use "./sections/faqs";
 @use "./sections/kelebihan";
+@use "./sections/contact";
+@use "./sections/partners";
 
 // belum jadi ##############
-@use "./sections/contact";
 @use "./sections/hero";
-@use "./sections/partners";
 
 /* ■━■━■━■ layout ■━■━■━■ */
 // @use "./layouts/layout";

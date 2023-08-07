@@ -3,14 +3,23 @@ import Link from "next/link";
 import CardKelas from "@/components/CardKelas";
 import CardPricing from "@/components/CardPricing";
 import Tabs from "@/components/Tabs";
-import { kelas, alur, faqs, kelebihan } from "@/utils/localData";
+import {
+  kelas,
+  alur,
+  faqs,
+  kelebihan,
+  testimonials,
+  pricing,
+} from "@/utils/localData";
+
 import Testimonials from "@/components/Testimonials";
 import Accordion from "@/components/Accordion";
 import CardKelebihan from "@/components/CardKelebihan";
+import Partners from "@/components/Partners";
 
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaWhatsappSquare } from "react-icons/fa";
+
 import { IoLogoWhatsapp } from "react-icons/io";
 import Footer from "@/components/Footer";
 
@@ -43,8 +52,8 @@ export default function Home() {
               </div>
               <div className="content">
                 <div className="cards">
-                  {kelebihan.map((kelebihan) => (
-                    <CardKelebihan kelebihan={kelebihan} />
+                  {kelebihan.map((kelebihan, idx) => (
+                    <CardKelebihan key={idx} kelebihan={kelebihan} />
                   ))}
                 </div>
               </div>
@@ -57,10 +66,11 @@ export default function Home() {
           <div className="partners__container">
             <article>
               <div className="header">
-                <span className="label-14-bold">PARTNERS</span>
-                <h2 className="heading-30-bold">Hiring Partners</h2>
+                <p>HIRING PARTNERS</p>
               </div>
-              <div className="content">Hiring Partners</div>
+              <div className="content">
+                <Partners />
+              </div>
             </article>
           </div>
         </section>
@@ -129,9 +139,9 @@ export default function Home() {
                 </p>
 
                 <div className="cards">
-                  <CardPricing />
-                  <CardPricing />
-                  <CardPricing />
+                  {pricing.map((program, idx) => (
+                    <CardPricing key={idx} {...program} />
+                  ))}
                 </div>
               </div>
             </article>
@@ -193,7 +203,7 @@ export default function Home() {
                 <h2 className="heading-30-bold">Apa Kata Mereka</h2>
               </div>
               <div className="content">
-                <Testimonials />
+                <Testimonials testimonials={testimonials} />
               </div>
             </article>
           </div>

@@ -1,0 +1,73 @@
+@use "../abstracts/" as *;
+// https://codepen.io/studiojvla/pen/qVbQqW?editors=0100
+
+@mixin white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+$animationSpeed: 39s;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  img {
+    // height: auto;
+    // object-fit: cover;
+    width: 66%;
+  }
+
+  &::before,
+  &::after {
+    @include white-gradient;
+    content: "";
+    // height: 100px;
+    height: 100%;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+
+    @include display(tab-port) {
+      width: 10px;
+    }
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+
+  .slide {
+    height: 100px;
+    width: 250px;
+    display: grid;
+    place-items: center;
+    // border: 1px solid #000;
+  }
+}

@@ -1,4 +1,7 @@
 import { AiFillAlert } from "react-icons/ai";
+import { BiSolidBriefcase } from "react-icons/bi";
+import { FaBrain } from "react-icons/fa";
+import { AiFillHeart } from "react-icons/ai";
 
 export const kelas = [
   {
@@ -187,20 +190,63 @@ export const faqs = [
 export const kelebihan = [
   {
     id: 1,
-    icon: <AiFillAlert />,
+    icon: <BiSolidBriefcase />,
     title: "Penyaluran Kerja",
     desc: "Bayangin aja setelah kuliah kamu gak perlu repot-repot apply sana sini cari lowongan pekerjaan karena program penyaluran ini sudah diurusin semuanya oleh tim Career Center Mahakarya!",
   },
   {
     id: 2,
-    icon: <AiFillAlert />,
+    icon: <FaBrain />,
     title: "UpSkill & ReSkill",
     desc: "1 kelas/mentor hanya terdiri dari 5-10 siswa agar mentor dapat berfokus pada kualitas pembelajaran siswa",
   },
   {
     id: 3,
-    icon: <AiFillAlert />,
+    icon: <AiFillHeart />,
     title: "Hiring Partner",
     desc: "Fasilitas job connection ke 1.000+ perusahaan hiring partner dalam dan luar negeri dan sudah banyak siswa yang lolos!",
+  },
+];
+
+export const pricing = [
+  {
+    id: 1,
+    name: "REGULER",
+    price: "Rp. 1Jt,-",
+    ogPrice: "Rp. 6,6Jt,-",
+    desc: "Total 6,6jt, Cicilan 1jt/ bulan x 6 bulan",
+    features: [
+      "Mentoring 1 on 1",
+      "Live group mentoring",
+      "Bonus video materi",
+      "Pendampingan kerja",
+      "Cicilan hingga 6x",
+      "Sertifikat",
+      "Tanpa seleksi",
+      "Lebih terjangkau dari ISA",
+      "Penyaluran kerja",
+    ],
+  },
+  {
+    id: 2,
+    name: "ISA",
+    price: "Rp. 0,-",
+    ogPrice: "Rp. 12Jt,-",
+    desc: "Total 12jt, Cicilan 12 bulan dibayar setelah kerja",
+    features: [
+      "Dapat semua fasilitas Reguler",
+      "Total biaya jadi 12 juta",
+      "Bonus video materi",
+      "Total cicilan jadi 12 kali",
+      "Ada tahap seleksi",
+    ],
+  },
+  {
+    id: 3,
+    name: "PENYALURAN KERJA",
+    price: "Rp. 0,-",
+    ogPrice: "Rp. 6,6Jt,-",
+    desc: "Total 6,6jt, Cicilan 1jt/ bulan x 6 bulan",
+    features: ["Dapat semua fasilitas Reguler"],
   },
 ];
