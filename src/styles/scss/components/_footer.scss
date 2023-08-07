@@ -1,0 +1,133 @@
+@use "../abstracts/" as *;
+
+.footer {
+  // border: 1px solid #000;
+  background-color: $color-primary-red-06;
+  color: $color-neutral-01;
+
+  &__container {
+    // border: 1px solid #000;
+    @extend %container;
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  &__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    p,
+    a {
+      line-height: 28px;
+    }
+    a {
+      &:hover {
+        color: $color-primary-red-04;
+      }
+    }
+    span {
+      color: $color-neutral-01;
+    }
+    & > * {
+      // border: 1px solid #000;
+    }
+    .location {
+      // border: 1px solid #000;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        li {
+          .title {
+            font-weight: map-get($font-weights, semi-bold);
+          }
+          // border: 1px solid #000;
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+      }
+    }
+
+    .kerja-sama,
+    .prodi,
+    .lainnya {
+      // border: 1px solid #000;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  }
+
+  &__bottom {
+    // border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    .socials {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      a {
+        &:hover {
+          color: $color-primary-red-04;
+        }
+      }
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    img {
+      // border: 1px solid #000;
+      height: 100%;
+    }
+  }
+
+  /* MEDIA-QUERIES */
+  @include display(tab-port) {
+    &__container {
+    }
+    &__links {
+      gap: 32px;
+      grid-template-columns: 1fr 1fr;
+
+      .location,
+      .kerja-sama,
+      .prodi,
+      .lainnya {
+        gap: 8px;
+      }
+
+      .kerja-sama,
+      .prodi,
+      .lainnya {
+        ul {
+          gap: 4px;
+        }
+      }
+    }
+
+    &__bottom {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      padding: 64px 12px;
+    }
+    &__links {
+      grid-template-columns: 1fr;
+    }
+  }
+}

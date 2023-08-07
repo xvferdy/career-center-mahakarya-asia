@@ -12,6 +12,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -283,6 +284,9 @@ export default function Home() {
           </article>
         </div>
       </section>
+
+      {/* SECTION FOOTER */}
+      <Footer />
     </main>
   );
 }
