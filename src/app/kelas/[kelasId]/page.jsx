@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 async function ClassPage(props) {
   // const kelas = await fetchData(props.params.kelasId);
   // if (!kelas.id) return notFound();
+
   return (
     <main className="kelas-main">
-      <h1>kelas {props.params.kelasId}</h1>
-      {/* <h1>kelas {kelas.desc}</h1> */}
+      {/* <h1>kelas {props.params.kelasId}</h1> */}
+      {/* <h1>{kelas.name}</h1>
+      <p>{kelas.desc}</p> */}
     </main>
   );
 }
