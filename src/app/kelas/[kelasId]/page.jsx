@@ -5,10 +5,10 @@ async function ClassPage(props) {
   // const kelas = await fetchData(props.params.kelasId);
   // if (!kelas.id) return notFound();
   return (
-    <div>
+    <main className="kelas-main">
       <h1>kelas {props.params.kelasId}</h1>
       {/* <h1>kelas {kelas.desc}</h1> */}
-    </div>
+    </main>
   );
 }
 

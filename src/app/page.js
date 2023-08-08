@@ -141,7 +141,7 @@ export default function Home() {
         </section>
 
         {/* SECTION KELAS */}
-        <section className="kelas">
+        <section id="kelas" className="kelas">
           <div className="kelas__container">
             <article>
               <div className="header">
@@ -228,7 +228,7 @@ export default function Home() {
       </div>
 
       {/* SECTION CONTACT */}
-      <section className="contact">
+      <section id="contact" className="contact">
         <div className="contact__container">
           <figure>
             <Image
@@ -286,9 +286,6 @@ export default function Home() {
           </article>
         </div>
       </section>
-
-      {/* SECTION FOOTER */}
-      <Footer />
     </main>
   );
 }

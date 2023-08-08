@@ -9,7 +9,7 @@
   &__container {
     @extend %container;
     margin-top: -90px; // translateX -90px untuk .whit di home
-    background-image: url("/assets/bg1.png");
+    // background-image: url("/assets/bg1.png");
     background-attachment: fixed;
 
     padding: 64px 24px;

@@ -12,12 +12,11 @@
 @use "./components/cardKelebihan";
 @use "./components/footer";
 @use "./components/carouselPartners";
-
-// belum jadi ##############
 @use "./components/navbar";
 
 /* ■━■━■━■ pages ■━■━■━■ */
 @use "./pages/home";
+@use "./pages/kelas-page";
 
 /* ■━■━■━■ sections ■━■━■━■ */
 @use "./sections/welcome";
@@ -29,8 +28,6 @@
 @use "./sections/kelebihan";
 @use "./sections/contact";
 @use "./sections/partners";
-
-// belum jadi ##############
 @use "./sections/hero";
 
 /* ■━■━■━■ layout ■━■━■━■ */
