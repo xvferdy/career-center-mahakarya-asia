@@ -1,21 +1,6 @@
 @use "../abstracts/" as *;
 
 .btn {
-  // box-shadow: $shadow-btn;
-  // font-size: 18px;
-  // font-weight: map-get($font-weights, semi-bold);
-  // width: max-content;
-  // display: inline-block;
-  // padding: 14px 32px;
-  // border-radius: 8px;
-  // background-color: $color-background;
-  // color: $color-primary-red-06;
-  // cursor: pointer;
-  // display: flex;
-  // gap: 8px;
-  // justify-content: center;
-  // align-items: center;
-  // transition: $transition;
   &--chip {
     // min-width: 98px;
     padding: 10px 16px;
@@ -28,6 +13,7 @@
     white-space: nowrap;
     cursor: pointer;
     transition: $transition;
+
     &--active {
       background-color: $color-primary-red-06;
       color: $color-neutral-01;
@@ -37,17 +23,17 @@
     }
   }
   &--primary {
-    display: inline-block;
-    border-radius: 4px;
+    min-height: 55px;
+    min-width: 213px;
     display: flex;
+
     gap: 4px;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
     font-size: 18px;
     line-height: 22.5px;
     padding: 8px 16px;
-    min-height: 55px;
-    min-width: 213px;
     background-color: $color-primary-red-06;
     font-weight: map-get($font-weights, semi-bold);
     color: $color-neutral-01;
@@ -62,6 +48,7 @@
     cursor: pointer;
     display: flex;
     gap: 4px;
+    max-width: fit-content;
     justify-content: center;
     align-items: center;
     background-color: transparent;

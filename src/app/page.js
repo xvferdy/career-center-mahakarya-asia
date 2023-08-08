@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import CardKelas from "@/components/CardKelas";
@@ -22,23 +23,14 @@ import { MdEmail } from "react-icons/md";
 
 import { IoLogoWhatsapp } from "react-icons/io";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     // <main className={`homepage-main ${openSans.className}`}>
     <main className="homepage-main">
       {/* SECTION HERO */}
-      <section className="hero">
-        <div className="hero__container">
-          <article>
-            <div className="header">
-              <span className="label-14-bold">HERO</span>
-              <h2 className="heading-30-bold">Banner</h2>
-            </div>
-            <div className="content">Hero</div>
-          </article>
-        </div>
-      </section>
+      <Hero />
 
       <div className="white">
         {/* SECTION KELEBIHAN */}

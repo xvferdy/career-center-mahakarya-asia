@@ -35,6 +35,9 @@ $animationSpeed: 39s;
   &::after {
     @include white-gradient;
     content: "";
+
+    // border: 1px solid #000;
+    top: 0;
     // height: 100px;
     height: 100%;
     position: absolute;
