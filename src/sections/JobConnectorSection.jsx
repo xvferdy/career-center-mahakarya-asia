@@ -25,7 +25,11 @@ function JobConnectorSection() {
           <div className="content">
             <Tabs alur={alur} />
             <div className="content__cta">
-              <Link className="btn btn--primary" href={`/kelas/wa`}>
+              <Link
+                className="btn btn--primary"
+                href={`https://wa.me/6281326301616?text=Halo kak saya mau daftar program career center mahakarya`}
+                target="_blank"
+              >
                 Daftar sekarang
               </Link>
             </div>

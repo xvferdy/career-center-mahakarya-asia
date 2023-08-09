@@ -37,7 +37,6 @@
     background-color: $color-primary-red-06;
     font-weight: map-get($font-weights, semi-bold);
     color: $color-neutral-01;
-    // color: $color-background;
     transition: $transition;
     &:hover {
       background-color: $color-primary-red-02;

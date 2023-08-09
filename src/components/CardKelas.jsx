@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "./Button";
 import { FiArrowRight } from "react-icons/fi";
 
 function CardKelas({ kelas }) {
-  const { id, img, slug, name, desc } = kelas;
+  const { id, img, name, desc } = kelas;
 
   return (
     <div className="cardKelas">

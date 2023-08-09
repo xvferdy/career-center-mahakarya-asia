@@ -29,47 +29,15 @@ function CardPricing({ name, id, desc, price, ogPrice, features }) {
                 {li}
               </li>
             ))}
-            {/* <li>
-              <BsFillPatchCheckFill />
-              Mentoring 1 on 1
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Live group mentoring
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Bonus video materi
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Pendampingan kerja
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Cicilan hingga 6x
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Sertifikat
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Tanpa seleksi
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Lebih terjangkau dari ISA
-            </li>
-            <li>
-              <BsFillPatchCheckFill />
-              Penyaluran kerja
-            </li> */}
           </ul>
         </div>
       </div>
       <div className="cardPricing__cta">
-        <Link className="btn btn--primary" href={`/kelas/wa`}>
+        <Link
+          className="btn btn--primary"
+          href={`https://wa.me/6281326301616?text=Halo kak saya mau daftar program career center mahakarya`}
+          target="_blank"
+        >
           Pilih paket ini <RxOpenInNewWindow />
         </Link>
       </div>

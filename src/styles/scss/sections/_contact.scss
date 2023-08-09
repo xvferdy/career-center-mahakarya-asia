@@ -16,8 +16,6 @@
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(12, 1fr);
-    // border: 1px solid #000;
-    // border: 1px solid #000;
   }
   figure {
     grid-column: 1 / span 5;
@@ -26,8 +24,6 @@
 
     img {
       height: 536px;
-      // width: 100%;
-      // width: 100%;
       object-fit: cover;
       border-radius: 40px;
 
@@ -35,9 +31,6 @@
       border: 8px solid $color-neutral-01;
       transition: $transition;
     }
-    // border-radius: 8px;
-    // overflow: hidden;
-    // border: 8px solid $color-neutral-05;
   }
   article {
     padding-left: 40px;
@@ -46,7 +39,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 32px;
-    // border: 1px solid #000;
     .header {
       text-align: left;
       display: flex;
@@ -67,7 +59,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
-        // justify-content: space-between;
         &-contact {
           display: flex;
           gap: 8px;
@@ -90,7 +81,6 @@
     &__container {
       display: flex;
       flex-direction: column;
-      // border: 1px solid #000;
     }
 
     article {

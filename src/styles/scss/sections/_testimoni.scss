@@ -7,15 +7,8 @@
 
   // position: relative;
   @extend %section;
-  // display: grid;
-  // place-items: center;
-  // border: 1px solid #000;
   &__container {
-    // border: 4px solid #1bb34d;
-    // @extend %container;
     padding: 64px 0;
-    // border: 1px solid #000;
-    // border: 1px solid #000;
   }
 
   article {
@@ -34,7 +27,6 @@
       }
     }
     .content {
-      // border: 1px solid #b42f2f;
       p {
       }
     }
@@ -43,8 +35,6 @@
   /* MEDIA-QUERIES */
   @include display(tab-port) {
     &__container {
-      // border: 1px solid #000;
-      // max-width: $width-md;
     }
 
     article {

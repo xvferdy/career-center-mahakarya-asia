@@ -1,9 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-
 import { BiChevronDown } from "react-icons/bi";
-
 import { motion, AnimatePresence } from "framer-motion";
 
 function Accordions({ question, answer }) {
@@ -25,12 +23,6 @@ function Accordions({ question, answer }) {
         <div className="accordion__answer">
           <AnimatePresence>
             {show && (
-              // <motion.div
-              //   initial={{ height: 0 }}
-              //   animate={{ height: "auto" }}
-              //   exit={{ height: 0 }}
-              //   transition={{ duration: 2.3 }}
-              // >
               <motion.p
                 initial={{ height: 0, opacity: 0 }}
                 animate={{ height: "auto", opacity: 1 }}
@@ -40,7 +32,6 @@ function Accordions({ question, answer }) {
                 <div className="divider"></div>
                 {answer}
               </motion.p>
-              // </motion.div>
             )}
           </AnimatePresence>
         </div>

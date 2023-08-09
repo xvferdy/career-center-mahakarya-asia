@@ -43,13 +43,17 @@ function Footer() {
             <span className="label-16-bold">Kerjasama</span>
             <ul>
               <li>
-                <Link href="#">Kerjasama Dalam Negeri</Link>
+                <Link href="https://unmaha.ac.id/kerjasama-dalam-negeri">
+                  Kerjasama Dalam Negeri
+                </Link>
               </li>
               <li>
-                <Link href="#">Kerjasama Luar Negeri</Link>
+                <Link href="https://unmaha.ac.id/kerjasama-luar-negeri">
+                  Kerjasama Luar Negeri
+                </Link>
               </li>
               <li>
-                <Link href="#">Alumni</Link>
+                <Link href="https://unmaha.ac.id/alumni">Alumni</Link>
               </li>
             </ul>
           </div>
@@ -92,41 +96,58 @@ function Footer() {
             <span className="label-16-bold">Link Lainnya</span>
             <ul>
               <li>
-                <Link href="#">Penjaminan Mutu</Link>
+                <Link href="https://bpm.unmaha.ac.id/">Penjaminan Mutu</Link>
               </li>
               <li>
-                <Link href="#">Portal Akademik Mahasiswa</Link>
+                <Link href="https://mahasiswa.unmaha.ac.id/">
+                  Portal Akademik Mahasiswa
+                </Link>
               </li>
               <li>
-                <Link href="#">Portal Akademik Dosen</Link>
+                <Link href="https://dosen.unmaha.ac.id/">
+                  Portal Akademik Dosen
+                </Link>
               </li>
               <li>
-                <Link href="#">e-Journal</Link>
+                <Link href="https://journal.unmaha.ac.id/">e-Journal</Link>
               </li>
               <li>
-                <Link href="#">Penelitian & Pengabdian</Link>
+                <Link href="https://lppm.unmaha.ac.id/">
+                  Penelitian & Pengabdian
+                </Link>
               </li>
               <li>
-                <Link href="#">Training & Pengembangan SDM</Link>
+                <Link href="https://training.unmaha.ac.id/">
+                  Training & Pengembangan SDM
+                </Link>
               </li>
               <li>
-                <Link href="#">Sistem Unmaha</Link>
+                <Link href="https://sistem.unmaha.ac.id/">Sistem Unmaha</Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="footer__bottom">
           <div className="socials">
-            <Link href="#">
+            <Link
+              href="https://www.instagram.com/mahakarya.asia"
+              target="_blank"
+            >
               <TiSocialInstagram />
             </Link>
-            <Link href="#">
+            <Link
+              href="https://www.facebook.com/mahakarya.asia"
+              target="_blank"
+            >
               <AiFillFacebook />
             </Link>
-            <Link href="#">
+            <Link href="https://twitter.com/mahakaryaasia" target="_blank">
               <AiFillTwitterCircle />
             </Link>
-            <Link href="#">
+            <Link
+              href="https://www.youtube.com/@UniversitasMahakaryaAsia"
+              target="_blank"
+            >
               <AiFillYoutube />
             </Link>
           </div>

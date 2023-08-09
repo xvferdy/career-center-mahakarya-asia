@@ -3,8 +3,6 @@
 /* FAQS */
 .faqs {
   @extend %section;
-  // display: grid;
-  // place-items: center;
 
   &__container {
     @extend %container;
@@ -15,9 +13,7 @@
   }
 
   article {
-    // border: 1px solid #000;
     grid-column: 3 / span 8;
-    // width: 872px;
     display: flex;
     flex-direction: column;
     justify-content: center;

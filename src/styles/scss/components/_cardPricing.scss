@@ -1,40 +1,5 @@
 @use "../abstracts/" as *;
 
-// <div className="cardPricing">
-// <div className="cardPricing__copy">
-//   <div className="cardPricing__copy-program">program</div>
-//   <div className="cardPricing__copy-price">
-//     <div className="container">
-//       <div className="prices">
-//         <div className="discount">1212</div>
-//         <div className="og">999999</div>
-//       </div>
-//       <div className="desc">
-//         Total 6,6jt, Cicilan 1jt/ bulan x 6 bulan
-//       </div>
-//     </div>
-//   </div>
-//   <div className="cardPricing__copy-features">
-//     <span className="label-12-bold">KEY FEATURES</span>
-//     <ul>
-//       <li>
-//         <BsFillPatchCheckFill />
-//         Mentoring 1 on 1
-//       </li>
-//       <li>
-//         <BsFillPatchCheckFill />
-//         Live group mentoring
-//       </li>
-//     </ul>
-//   </div>
-// </div>
-// <div className="cardKelas__cta">
-//   <Link className="btn btn--primary" href={`/kelas/wa`}>
-//     Pilih paket ini <RxOpenInNewWindow />
-//   </Link>
-// </div>
-// </div>
-
 .cardPricing {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08),
     0px 0px 4px 0px rgba(0, 0, 0, 0.04);
@@ -42,12 +7,10 @@
   min-height: 643px;
   width: 312px;
   overflow: hidden;
-  // border: 1px solid #000;
   display: flex;
   flex-direction: column;
   gap: 32px;
   &__copy {
-    // border: 1px solid #000;
     flex-grow: 1;
     display: flex;
     flex-direction: column;

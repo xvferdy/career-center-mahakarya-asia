@@ -1,24 +1,5 @@
 @use "../abstracts/" as *;
 
-// <div className="tabs">
-// <div className="tabs__list">
-//   {alur.map((el, idx) => (
-//     <button key={idx} className="tab" onClick={() => setTab(el.label)}>
-//       {el.label}
-//     </button>
-//   ))}
-// </div>
-// {alur.map(
-//   (el, idx) =>
-//     el.label === tab && (
-//       <div key={idx} className="tabs__details">
-//         <p className="body-16-bold">{el.title}</p>
-//         <p className="body-16-reg">{el.paragraph1}</p>
-//         <p className="body-16-reg">{el.paragraph2}</p>
-//       </div>
-//     )
-// )}
-
 .tabs {
   display: flex;
   flex-direction: column;
@@ -26,7 +7,6 @@
   align-items: center;
   // gap: 48px;
   position: relative;
-  // border: 1px solid #6b1bd4;
   width: 100%;
 
   &__list {
@@ -39,27 +19,19 @@
       0px 0px 4px 0px rgba(0, 0, 0, 0.04);
     padding: 4px;
     border-radius: 999px;
-    // max-width: fit-content;
 
     .tab {
     }
   }
   &__details {
-    // border: 1px solid #6b1bd4;
     margin-top: 94px;
-    // border: 1px solid #000;
-    // max-width: 648px;
     width: 100%;
     max-width: 648px;
     min-height: 300px;
-
     display: flex;
     flex-direction: column;
     gap: 16px;
 
-    // display: grid;
-    // gap: 16px;
-    // grid-template-columns: 1fr 1fr;
     &-title {
       color: $color-neutral-09;
       font-size: 16px;

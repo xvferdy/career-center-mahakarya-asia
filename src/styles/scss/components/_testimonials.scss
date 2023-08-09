@@ -5,7 +5,6 @@
   // border: 1px solid #000;
 
   overflow: hidden;
-  // width: 100%;
   padding: 48px 0 !important;
   padding-bottom: 64px !important;
   .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -32,8 +31,6 @@
 .testimonials__container {
   position: relative;
   .cardTestimoni {
-    // min-height: 320px;
-    // width: 100%;
     user-select: none;
     padding: 32px;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
@@ -51,13 +48,8 @@
       &-avatar {
         width: 48px;
         height: 48px;
-        // aspect-ratio: 1/1;
         background: #fff;
         border-radius: 100%;
-        // margin: 0 auto 1rem;
-        // border: 0.4rem solid $primary-variant-color;
-
-        // outline: 4px solid $color-neutral-03;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2) inset;
       }
       &-copy {

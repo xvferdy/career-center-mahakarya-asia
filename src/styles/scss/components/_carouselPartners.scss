@@ -11,7 +11,6 @@
 
 $animationSpeed: 39s;
 
-// Animation
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -26,8 +25,6 @@ $animationSpeed: 39s;
   overflow: hidden;
   position: relative;
   img {
-    // height: auto;
-    // object-fit: cover;
     width: 66%;
   }
 
@@ -35,10 +32,7 @@ $animationSpeed: 39s;
   &::after {
     @include white-gradient;
     content: "";
-
-    // border: 1px solid #000;
     top: 0;
-    // height: 100px;
     height: 100%;
     position: absolute;
     width: 200px;
@@ -71,6 +65,5 @@ $animationSpeed: 39s;
     width: 250px;
     display: grid;
     place-items: center;
-    // border: 1px solid #000;
   }
 }

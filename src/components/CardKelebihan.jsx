@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillAlert } from "react-icons/ai";
 
 function CardKelebihan({ kelebihan }) {
   const { icon, title, desc } = kelebihan;

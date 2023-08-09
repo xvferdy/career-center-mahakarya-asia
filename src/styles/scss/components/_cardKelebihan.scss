@@ -4,8 +4,6 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  // padding: 12px;
-  // border: 1px solid #000;
 
   &__icon {
     background-color: $color-primary-red-02;
@@ -20,7 +18,6 @@
       color: $color-primary-red-06;
       width: 18px;
       height: 18px;
-      // padding: 16px;
     }
   }
   .title {

@@ -108,7 +108,11 @@ function HeroSection() {
             </div>
           </div>
           <div className="cta">
-            <Link className="btn btn--primary" href={`#`}>
+            <Link
+              className="btn btn--primary"
+              href={`https://wa.me/6281326301616?text=Halo kak saya mau daftar program career center mahakarya`}
+              target="_blank"
+            >
               Daftar Sekarang
             </Link>
           </div>
