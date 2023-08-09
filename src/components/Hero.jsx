@@ -4,10 +4,24 @@ import Image from "next/image";
 import { BiSolidBriefcase } from "react-icons/bi";
 import { FaBrain } from "react-icons/fa";
 import { AiFillHeart } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <section className="hero">
+      <div className="boxes">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div className="hero__container">
         <article>
           <div className="header">
@@ -94,8 +108,12 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className="cta">
-            <Link className="btn btn--primary" href={`/kelas/wa`}>
+          <div
+            className="cta"
+            whileHover={{ scale: 1.25, transition: { duration: 0.2 } }}
+            whileTap={{ scale: 0.85, transition: { duration: 0.01 } }}
+          >
+            <Link className="btn btn--primary" href={`#`}>
               Daftar Sekarang
             </Link>
           </div>

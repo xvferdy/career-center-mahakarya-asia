@@ -7,12 +7,93 @@
   background: linear-gradient(110deg, #faf9f7 0%, rgba(250, 249, 247, 0) 100%);
   // background-image: url("/assets/bg1.png");
   // background-attachment: fixed;
-  // position: relative;
+  position: relative;
   overflow: hidden;
-  @extend %section;
+  // @extend %section;
   // display: grid;
   // place-items: center;
   // border: 1px solid #000;
+
+  @keyframes floating {
+    0% {
+      transform: scale(0) translateY(0) rotate(0);
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1) translateY(-200px) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  .boxes {
+    // border: 1px solid #000;
+
+    div {
+      width: 40px;
+      height: 40px;
+      border: 4px solid $color-primary-red-03;
+      background-color: transparent;
+      border-radius: 4px;
+      position: absolute;
+      // border: 1px solid #000;
+
+      &:nth-child(1) {
+        top: 80%;
+        left: 48%;
+        animation: floating 13s ease-out infinite;
+      }
+      &:nth-child(2) {
+        top: 30%;
+        left: 41%;
+        animation: floating 20s ease-out infinite;
+      }
+      &:nth-child(3) {
+        top: 50%;
+        left: 1%;
+        animation: floating 11s ease-out infinite;
+      }
+      &:nth-child(4) {
+        top: 60%;
+        left: 28%;
+        animation: floating 17s ease-out infinite;
+      }
+      &:nth-child(5) {
+        top: 49%;
+        left: 53%;
+        animation: floating 15s ease-out infinite;
+      }
+
+      &:nth-child(6) {
+        top: 88%;
+        left: 14%;
+        animation: floating 15s ease-out infinite;
+      }
+      &:nth-child(7) {
+        top: 33%;
+        left: 11%;
+        animation: floating 8s ease-out infinite;
+      }
+      &:nth-child(8) {
+        top: 70%;
+        left: 44%;
+        animation: floating 9s ease-out infinite;
+      }
+      &:nth-child(9) {
+        top: 14%;
+        left: 22%;
+        animation: floating 9s ease-out infinite;
+      }
+      &:nth-child(10) {
+        top: 43%;
+        left: 34%;
+        animation: floating 10s ease-out infinite;
+      }
+    }
+  }
+
   &__container {
     // border: 4px solid #1bb34d;
     @extend %container;
