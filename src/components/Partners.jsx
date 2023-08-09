@@ -78,6 +78,70 @@ function Partners() {
             alt="partner"
           />
         </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-akulaku.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        {/* <div className="slide">
+          <Image
+            src="/assets/partner-akulaku.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-dana.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-bizzy.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-dreamaxtion.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-telkomsel.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-agit.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-koltiva.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div> */}
 
         {/* REPEAT */}
         <div className="slide">
@@ -153,6 +217,70 @@ function Partners() {
             alt="partner"
           />
         </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-akulaku.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        {/* <div className="slide">
+          <Image
+            src="/assets/partner-akulaku.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-dana.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-bizzy.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-dreamaxtion.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-telkomsel.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-agit.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div>
+        <div className="slide">
+          <Image
+            src="/assets/partner-koltiva.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div> */}
       </div>
     </div>
   );
