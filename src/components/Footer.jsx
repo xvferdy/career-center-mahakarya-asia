@@ -152,7 +152,7 @@ function Footer() {
             </Link>
           </div>
           <Image
-            src={"/assets/logo-footer.png"}
+            src={"/assets/og-logo/logo-footer.png"}
             width={200}
             height={61}
             alt="logo"

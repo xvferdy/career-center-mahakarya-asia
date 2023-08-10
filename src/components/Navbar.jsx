@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbar__logo">
           <Link href="/">
             <Image
-              src="/assets/logo-nav.png"
+              src="/assets/og-logo/logo-nav.png"
               alt="Logo"
               width={72}
               height={72}

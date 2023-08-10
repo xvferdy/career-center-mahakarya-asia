@@ -9,7 +9,7 @@ function CardKelas({ kelas }) {
   return (
     <div className="cardKelas">
       <div className="cardKelas__img">
-        <Image src={`/assets/${img}`} width={234} height={142} alt="Kelas" />
+        <Image src={img} width={234} height={142} alt="Kelas" />
       </div>
       <div className="cardKelas__body">
         <p className="cardKelas__body-title">{name}</p>

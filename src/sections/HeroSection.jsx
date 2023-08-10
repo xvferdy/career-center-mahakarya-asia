@@ -30,31 +30,31 @@ function HeroSection() {
             <div className="content__joined">
               <div className="content__joined-people">
                 <Image
-                  src={`/assets/testi2.jpg`}
+                  src={`/assets/og-testi-&-joined/testi2.jpg`}
                   width={32}
                   height={32}
                   alt="Person"
                 />
                 <Image
-                  src={`/assets/join1.jpg`}
+                  src={`/assets/og-testi-&-joined/join1.jpg`}
                   width={32}
                   height={32}
                   alt="Person"
                 />
                 <Image
-                  src={`/assets/testi6.png`}
+                  src={`/assets/og-testi-&-joined/testi6.png`}
                   width={32}
                   height={32}
                   alt="Person"
                 />
                 <Image
-                  src={`/assets/join2.png`}
+                  src={`/assets/og-testi-&-joined/join2.png`}
                   width={32}
                   height={32}
                   alt="Person"
                 />
                 <Image
-                  src={`/assets/testi4.png`}
+                  src={`/assets/og-testi-&-joined/testi4.png`}
                   width={32}
                   height={32}
                   alt="Person"

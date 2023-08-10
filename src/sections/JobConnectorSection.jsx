@@ -10,7 +10,7 @@ function JobConnectorSection() {
       <div className="alur__container">
         <figure>
           <Image
-            src={`/assets/alur.jpg`}
+            src={`/assets/og-unsplash/alur.jpg`}
             width={1320}
             height={507}
             alt="Alur job kenektor"
