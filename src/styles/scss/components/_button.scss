@@ -13,13 +13,16 @@
     white-space: nowrap;
     cursor: pointer;
     transition: $transition;
-
+    &:hover {
+      // opacity: 0.8;
+      background-color: $color-neutral-02;
+    }
     &--active {
       background-color: $color-primary-red-06;
       color: $color-neutral-01;
-    }
-    &:hover {
-      opacity: 0.8;
+      &:hover {
+        background-color: $color-primary-red-07;
+      }
     }
   }
   &--primary {
