@@ -121,10 +121,17 @@ function HeroSection() {
         <figure>
           <Image
             src={`/assets/compress/women-red-comp.png`}
-            width={720}
-            height={1320}
             // width={2280}
             // height={2872}
+
+            // width={570}
+            // height={718}
+
+            width={1140}
+            height={1436}
+            // width={1200}
+            // height={1512}
+
             alt="Hero IMG"
             className="hero-img"
           />

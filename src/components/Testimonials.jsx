@@ -32,6 +32,7 @@ export default function Testimonials({ testimonials }) {
         autoplay={{
           delay: 4500,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true,
         }}
         navigation={true}
         breakpoints={{
