@@ -30,9 +30,17 @@ function Partners() {
           />
         </div>
 
-        <div className="slide">
+        {/* <div className="slide">
           <Image
             src="/assets/partner-ruang-guru.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div> */}
+        <div className="slide">
+          <Image
+            src="/assets/partner-dana.png"
             height="100"
             width="250"
             alt="partner"
@@ -64,12 +72,20 @@ function Partners() {
         </div>
         <div className="slide">
           <Image
-            src="/assets/partner-qtera.png"
+            src="/assets/partner-telkomsel.png"
             height="100"
             width="250"
             alt="partner"
           />
         </div>
+        {/* <div className="slide">
+          <Image
+            src="/assets/partner-qtera.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div> */}
         <div className="slide">
           <Image
             src="/assets/partner-danacita.png"
@@ -113,14 +129,6 @@ function Partners() {
         <div className="slide">
           <Image
             src="/assets/partner-dreamaxtion.png"
-            height="100"
-            width="250"
-            alt="partner"
-          />
-        </div>
-        <div className="slide">
-          <Image
-            src="/assets/partner-telkomsel.png"
             height="100"
             width="250"
             alt="partner"
@@ -168,9 +176,17 @@ function Partners() {
             alt="partner"
           />
         </div>
-        <div className="slide">
+        {/* <div className="slide">
           <Image
             src="/assets/partner-ruang-guru.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div> */}
+        <div className="slide">
+          <Image
+            src="/assets/partner-dana.png"
             height="100"
             width="250"
             alt="partner"
@@ -184,6 +200,7 @@ function Partners() {
             alt="partner"
           />
         </div>
+
         <div className="slide">
           <Image
             src="/assets/partner-grab.png"
@@ -203,12 +220,20 @@ function Partners() {
         </div>
         <div className="slide">
           <Image
-            src="/assets/partner-qtera.png"
+            src="/assets/partner-telkomsel.png"
             height="100"
             width="250"
             alt="partner"
           />
         </div>
+        {/* <div className="slide">
+          <Image
+            src="/assets/partner-qtera.png"
+            height="100"
+            width="250"
+            alt="partner"
+          />
+        </div> */}
         <div className="slide">
           <Image
             src="/assets/partner-danacita.png"
@@ -257,14 +282,7 @@ function Partners() {
             alt="partner"
           />
         </div>
-        <div className="slide">
-          <Image
-            src="/assets/partner-telkomsel.png"
-            height="100"
-            width="250"
-            alt="partner"
-          />
-        </div>
+ 
         <div className="slide">
           <Image
             src="/assets/partner-agit.png"

@@ -7,7 +7,7 @@ function WelcomeSection() {
       <div className="welcome__container">
         <figure>
           <Image
-            src={`/assets/welcome.jpg`}
+            src={`/assets/compress/welcome-comp.jpg`}
             width={648}
             height={405}
             alt="Welcome to career center mahakarya"
