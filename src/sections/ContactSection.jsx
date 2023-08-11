@@ -29,7 +29,7 @@ function ContactSection() {
             <div className="content__contacts">
               <div className="content__contacts-contact">
                 <FaPhoneSquareAlt />
-                <p className="body-16-reg">+6282327610069 - Admin 1 Jogja</p>
+                <p className="body-16-reg">+6282327610069 - Admin 1</p>
               </div>
               <div className="content__contacts-contact">
                 <MdEmail />
@@ -37,11 +37,11 @@ function ContactSection() {
               </div>
               <div className="content__contacts-contact">
                 <FaPhoneSquareAlt />
-                <p className="body-16-reg">+6282327610070 - Admin 2 Jogja</p>
+                <p className="body-16-reg">+6282327610070 - Admin 2</p>
               </div>
               <div className="content__contacts-contact">
                 <FaPhoneSquareAlt />
-                <p className="body-16-reg">+62274866800 - Jogja</p>
+                <p className="body-16-reg">+62274866800 - Admin 3</p>
               </div>
               <div className="content__contacts-contact">
                 <IoLogoWhatsapp />

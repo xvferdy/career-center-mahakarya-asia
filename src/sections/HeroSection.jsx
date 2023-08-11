@@ -24,7 +24,7 @@ function HeroSection() {
       <div className="hero__container">
         <article>
           <div className="header">
-            <h1 className="heading-30-bold">Career Center Mahakarya</h1>
+            <h1 className="heading-30-bold">Asia Career Center</h1>
           </div>
           <div className="content">
             <div className="content__joined">

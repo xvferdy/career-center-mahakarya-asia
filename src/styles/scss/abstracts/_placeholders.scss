@@ -16,9 +16,13 @@
 
 %container {
   max-width: $width-lg;
+  // max-width: 80%
   margin: 0 auto;
 
   /* MEDIA-QUERIES */
+  @include display(sm-desktop) {
+    max-width: 1064px;
+  }
   @include display(tab-port) {
     max-width: $width-md;
   }
