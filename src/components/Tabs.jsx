@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 function Tabs({ alur }) {
   const [selectedTab, setSelectedTab] = useState(1);
@@ -16,7 +17,7 @@ function Tabs({ alur }) {
   let prev = tuple[0];
   let flow = selectedTab > prev ? "nextStep" : "prevStep";
 
-  console.log(flow);
+  // console.log(flow);
 
   return (
     <div className="tabs">
@@ -57,6 +58,9 @@ function Tabs({ alur }) {
                 <p className="tabs__details-title">{el.title}</p>
                 <p className="tabs__details-paragraph1">{el.paragraph1}</p>
                 <p className="tabs__details-paragraph2">{el.paragraph2}</p>
+                {el.illu && (
+                  <Image src={el.illu} width={97} height={18.77} alt="illu" />
+                )}
               </motion.div>
             )
         )}
@@ -71,7 +75,14 @@ let variants = {
     x: flow === "nextStep" ? 100 : -100,
     y: "2px",
   }),
-  center: { opacity: 1, x: 0, y: "2px" },
+  center: {
+    opacity: 1,
+    x: 0,
+    y: "2px",
+    // transition: {
+    //   duration: 0.2,
+    // },
+  },
   exit: (flow) => ({
     opacity: 0,
     x: flow === "nextStep" ? -100 : 100,
