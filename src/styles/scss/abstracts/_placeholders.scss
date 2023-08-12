@@ -22,6 +22,7 @@
   /* MEDIA-QUERIES */
   @include display(sm-desktop) {
     max-width: 1064px;
+    // max-width: 1140px;
   }
   @include display(tab-port) {
     max-width: $width-md;
