@@ -3,7 +3,7 @@
 /* ALUR */
 .alur {
   @extend %section;
-
+  overflow: hidden;
   &__container {
     @extend %container;
     padding: 64px 24px;
