@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Tabs({ alur }) {
   const [selectedTab, setSelectedTab] = useState(1);
-  const [tuple, setTuple] = useState([null, selectedTab]);
+  const [tuple, setTuple] = useState([null, selectedTab]); // [prev, current]
 
   if (tuple[1] !== selectedTab) {
     setTuple([tuple[1], selectedTab]);
