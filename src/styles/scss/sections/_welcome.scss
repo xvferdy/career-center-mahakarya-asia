@@ -12,6 +12,7 @@
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(12, 1fr);
+    place-items: center;
   }
   figure {
     grid-column: 1 / span 6;

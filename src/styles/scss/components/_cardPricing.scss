@@ -47,6 +47,16 @@
             font-size: 16px;
             line-height: 20px;
             font-weight: map-get($font-weights, semi-bold);
+            position: relative;
+            &::before {
+              content: "";
+              position: absolute;
+              top: 40%;
+              height: 2px;
+              background-color: #d91a1a;
+              width: 100%;
+              transform: rotate(-4deg);
+            }
           }
         }
         .desc {

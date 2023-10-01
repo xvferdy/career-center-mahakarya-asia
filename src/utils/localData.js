@@ -64,6 +64,7 @@ export const alur = [
     title: "Deskripsi Pilih Program",
     paragraph1: "Lorem Suspendisse fringilla dictum velit ullamcorper.",
     paragraph2: "",
+    illu: "/assets/og-logo/logo-edu.png",
   },
   {
     id: 3,
@@ -71,6 +72,7 @@ export const alur = [
     title: "Deskripsi Pilih Kelas",
     paragraph1: "Velit ullamcorper rutrum in urna gravida.",
     paragraph2: "",
+    illu: "/assets/og-vectors/alur-illu-3.svg",
   },
   {
     id: 4,
@@ -82,8 +84,9 @@ export const alur = [
   {
     id: 5,
     label: "5. Project",
-    title: "Deskripsi Project",
-    paragraph1: "Duis quam aliquet bibendum dignissim adipiscing ac eu.",
+    title: "Final Project",
+    paragraph1:
+      "Pada fase ini kamu tidak perlu khawatir apabila kamu belum pernah membuat sebuah project, karena kamu akan selalu dibimbing oleh mentor, dan banyak sekali potensi project yang akan kamu dapatkan untuk menambahkan portfoliomu.",
     paragraph2: "",
   },
   {

@@ -8,16 +8,28 @@
   &__container {
     // @extend %container;
     padding: 64px 0;
+    // padding-top: 24px;
   }
   article {
-    p {
-      text-align: center;
-      margin-bottom: 48px;
-      color: $color-neutral-04;
-      font-size: 14px;
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
 
-      font-weight: map-get($font-weights, bold);
-      line-height: 17.5px;
+      margin-top: 24px;
+      p {
+        text-align: center;
+        // margin-bottom: 24px;
+        color: $color-neutral-04;
+        font-size: 14px;
+
+        font-weight: map-get($font-weights, bold);
+        line-height: 17.5px;
+      }
+      img {
+        margin-top: -2px;
+      }
     }
   }
 }
